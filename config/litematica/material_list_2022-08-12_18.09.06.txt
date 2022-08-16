@@ -1,0 +1,22 @@
++---------------------------+-------+---------+------------------+
+| Material List for placement 'Big Tree 2 (Converted Schematic)' |
++---------------------------+-------+---------+------------------+
+| Item                      | Total | Missing |        Available |
++---------------------------+-------+---------+------------------+
+| Hojas de roble            | 55832 |   55832 |                0 |
+| Tronco de roble           | 32817 |   32817 |                0 |
+| Enredadera                |  8459 |    8459 |                0 |
+| Valla de roble            |   955 |     955 |                0 |
+| Escaleras de roble        |   383 |     383 |                0 |
+| Tablones de roble         |   197 |     197 |                0 |
+| Antorcha                  |   149 |     149 |                0 |
+| Puerta de roble           |    49 |      49 |                0 |
+| Hojas de jungla           |    24 |      24 |                0 |
+| Trampilla de roble        |    24 |      24 |                0 |
+| Losa de roble             |    16 |      16 |                0 |
+| Tronco de jungla          |    12 |      12 |                0 |
+| Placa de presión de roble |     4 |       4 |                0 |
+| Cubo con agua             |     2 |       2 |                1 |
++---------------------------+-------+---------+------------------+
+| Item                      | Total | Missing |        Available |
++---------------------------+-------+---------+------------------+
