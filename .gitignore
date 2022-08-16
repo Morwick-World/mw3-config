@@ -10,3 +10,8 @@ mods/replaymod*.jar
 mods/worldedit*.jar
 config/MM2/info.json
 config/replaymod.json
+config/litematica.json
+config/litematica/**/*
+config/worldedit/**/*
+config/camera-client.toml
+config/inventoryhud-client.toml
