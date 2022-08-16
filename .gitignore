@@ -9,3 +9,4 @@ mods/litematica*.jar
 mods/replaymod*.jar
 mods/worldedit*.jar
 config/MM2/info.json
+config/replaymod.json
