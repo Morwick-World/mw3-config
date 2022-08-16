@@ -13,5 +13,7 @@ config/replaymod.json
 config/litematica.json
 config/litematica/**/*
 config/worldedit/**/*
+config/InventoryHUD/**/*
+config/voicechat/**/*
 config/camera-client.toml
 config/inventoryhud-client.toml
