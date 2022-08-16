@@ -1,3 +1,7 @@
-litematica*.jar
-replaymod*.jar
-worldedit*.jar
+./*
+!./mods/*
+!./config/*
+!./resources/*
+./mods/litematica*.jar
+./mods/replaymod*.jar
+./mods/worldedit*.jar
