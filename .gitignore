@@ -17,3 +17,6 @@ config/InventoryHUD/**/*
 config/voicechat/**/*
 config/camera-client.toml
 config/inventoryhud-client.toml
+config/rubidium-options.json
+config/oculus.properties
+config/rubidium-options.json
