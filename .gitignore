@@ -17,3 +17,4 @@ config/InventoryHUD/**/*
 config/voicechat/**/*
 config/camera-client.toml
 config/inventoryhud-client.toml
+config/chat_heads.json5
