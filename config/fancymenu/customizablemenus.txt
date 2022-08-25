@@ -3,3 +3,9 @@ type = customizablemenus
 net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
+net.minecraft.client.gui.screen.inventory.InventoryScreen {
+}
+
+dev.ftb.mods.ftblibrary.ui.ScreenWrapper {
+}
+
