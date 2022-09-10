@@ -268,15 +268,17 @@ customization {
 
 customization {
   orientation = top-left
-  loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = joinserver
+  backgroundhovered = resources\button_hover_background.png
+  label = Prueba
+  loopbackgroundanimations = true
   x = 217
   width = 100
   actionid = ee9d7831-0f0c-4da0-bfb5-be9e805847c81661428324282
   action = addbutton
   y = 251
-  label = Prueba
+  backgroundnormal = resources\button_normal_background.png
   value = 0.0.0.0:24454
   height = 20
 }
