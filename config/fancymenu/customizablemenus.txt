@@ -9,3 +9,9 @@ net.minecraft.client.gui.screen.inventory.InventoryScreen {
 dev.ftb.mods.ftblibrary.ui.ScreenWrapper {
 }
 
+net.minecraft.client.gui.screen.WorkingScreen {
+}
+
+net.minecraft.client.gui.screen.DownloadTerrainScreen {
+}
+

@@ -5,6 +5,8 @@
 !config/**/*
 !resources/
 !resources/**/*
+!resourcepacks/
+!resourcepacks/**/*
 mods/litematica*.jar
 mods/replaymod*.jar
 mods/worldedit*.jar

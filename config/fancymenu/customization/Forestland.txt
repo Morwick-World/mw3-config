@@ -9,16 +9,22 @@ customization-meta {
 }
 
 customization {
-  keepaspectratio = false
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = true
   action = backgroundoptions
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = top-left
-  x = 219
+  orientation = mid-centered
+  x = -100
   action = movebutton
-  y = 186
+  y = 6
 }
 
 customization {
@@ -49,10 +55,10 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = top-left
-  x = 75
+  orientation = bottom-left
+  x = 74
   action = movebutton
-  y = 337
+  y = -23
 }
 
 customization {
@@ -79,10 +85,10 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = top-left
-  x = 219
+  orientation = mid-centered
+  x = -100
   action = movebutton
-  y = 211
+  y = 31
 }
 
 customization {
@@ -111,10 +117,10 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = top-left
-  x = 219
+  orientation = mid-centered
+  x = -100
   action = movebutton
-  y = 161
+  y = -19
 }
 
 customization {
@@ -134,10 +140,10 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  orientation = top-left
+  orientation = bottom-left
   x = 51
   action = movebutton
-  y = 337
+  y = -23
 }
 
 customization {
