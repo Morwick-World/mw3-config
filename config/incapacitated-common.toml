@@ -5,7 +5,7 @@
 	#Range: > 5
 	reviveTicks = 150
 	#Are downed players invincible?
-	invincibleWhileDowned = false
+	invincibleWhileDowned = true
 	#Do some damage types like Lava down players, or instantly kill?
 	someInstantKills = true
 	#How many times a player can go down without a healing or revive item, without instantly dying the next time they are supposed to go down.
