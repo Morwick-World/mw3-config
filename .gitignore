@@ -12,3 +12,5 @@ mods/replaymod*.jar
 mods/worldedit*.jar
 !config/fancymenu/
 !config/fancymenu/**/*
+!config/drippyloadingscreen/
+!config/drippyloadingscreen/**/*
