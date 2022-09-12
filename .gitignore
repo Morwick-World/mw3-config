@@ -1,8 +1,6 @@
 *
 !mods/
 !mods/**/*
-config/
-config/**/*
 !resources/
 !resources/**/*
 !resourcepacks/
