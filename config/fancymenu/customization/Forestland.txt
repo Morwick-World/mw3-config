@@ -49,6 +49,63 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 31
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button_hover_background.png
+  backgroundnormal = resources\button_normal_background.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -19
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Probar mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button_hover_background.png
+  backgroundnormal = resources\button_normal_background.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
@@ -84,58 +141,11 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = 31
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 200
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = resources\button_hover_background.png
-  backgroundnormal = resources\button_normal_background.png
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = bottom-left
   x = 3
   action = movebutton
   y = -23
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -19
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value = Probar mods
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = resources\button_hover_background.png
-  backgroundnormal = resources\button_normal_background.png
 }
 
 customization {
@@ -169,14 +179,9 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
   orientation = top-left
   hidden = false
-  x = 186
+  x = 346
   width = 268
   action = deep_customization_element:title_screen_forge_top
   actionid = 130a600c-6246-44ba-b491-9a9d4d941e471661357453122
@@ -208,19 +213,19 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
-  x = 423
+  hidden = true
+  x = 583
   width = 13
   action = deep_customization_element:title_screen_realms_notification
   actionid = 19064601-55ac-43b6-aa34-e925d146089b1661357453122
-  y = 190
+  y = 235
   height = 13
 }
 
 customization {
   orientation = top-left
   hidden = false
-  x = 183
+  x = 343
   width = 274
   action = deep_customization_element:title_screen_logo
   actionid = acef2023-d461-4eef-9d69-6a17dd5ed5801661357453122
@@ -262,7 +267,7 @@ customization {
   audio_source:24a593e9-548f-4b36-b690-7e971919eed61661427964821 = resources/Fantasy-1.ogg;EXTERNAL_LOCAL;50;0
   orientation = top-left
   loop = true
-  channel = master
+  channel = record
   x = 1
   width = 50
   action = custom_layout_element:fancymenu_extension:audio_item

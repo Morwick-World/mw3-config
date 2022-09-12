@@ -15,3 +15,18 @@ net.minecraft.client.gui.screen.WorkingScreen {
 net.minecraft.client.gui.screen.DownloadTerrainScreen {
 }
 
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+
