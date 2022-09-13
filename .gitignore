@@ -12,3 +12,4 @@ mods/worldedit*.jar
 !config/fancymenu/**/*
 !config/drippyloadingscreen/
 !config/drippyloadingscreen/**/*
+!config/waila/waila_plugins.json
