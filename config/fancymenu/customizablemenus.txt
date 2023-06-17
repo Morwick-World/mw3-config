@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 net.minecraft.client.gui.screen.inventory.InventoryScreen {
 }
 
@@ -28,5 +25,8 @@ net.minecraft.client.gui.screen.CreateWorldScreen {
 }
 
 net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 
