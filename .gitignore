@@ -12,3 +12,4 @@
 !config/drippyloadingscreen/**/*
 !config/waila/waila_plugins.json
 !config/waila/blacklist.json
+!journeymap/config/**/journeymap.minimap.config
