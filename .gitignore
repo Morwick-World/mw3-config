@@ -6,11 +6,9 @@
 !resources/**/*
 !resourcepacks/
 !resourcepacks/**/*
-mods/litematica*.jar
-mods/replaymod*.jar
-mods/worldedit*.jar
 !config/fancymenu/
 !config/fancymenu/**/*
 !config/drippyloadingscreen/
 !config/drippyloadingscreen/**/*
 !config/waila/waila_plugins.json
+!config/waila/blacklist.json
