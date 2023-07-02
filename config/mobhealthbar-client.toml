@@ -12,7 +12,7 @@
 	on_aggro = false
 	#
 	#List for the mobs that should not be displayed, put a comma (,) between the registered names!
-	blacklist = "minecraft:ender_dragon,minecraft:wither,minecraft:armon_stand"
+	blacklist = "minecraft:ender_dragon,minecraft:wither,minecraft:armor_stand"
 
 	#MobHealtBar
 	[general.hpbar]
