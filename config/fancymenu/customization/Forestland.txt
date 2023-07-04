@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  identifier = net.minecraft.client.gui.screens.TitleScreen
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -49,63 +49,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = 31
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 200
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = resources\button_hover_background.png
-  backgroundnormal = resources\button_normal_background.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -19
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value = Probar mods
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = resources\button_hover_background.png
-  backgroundnormal = resources\button_normal_background.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=604346%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = hidebutton
 }
@@ -141,11 +84,58 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 31
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button_hover_background.png
+  backgroundnormal = resources\button_normal_background.png
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = bottom-left
   x = 3
   action = movebutton
   y = -23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -19
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = Probar mods
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\button_hover_background.png
+  backgroundnormal = resources\button_normal_background.png
 }
 
 customization {
@@ -176,6 +166,11 @@ customization {
   action = setbuttontexture
   backgroundhovered = resources\button_hover_background_mods.png
   backgroundnormal = resources\button_normal_background_mods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
 }
 
 customization {
@@ -249,17 +244,16 @@ customization {
 customization {
   orientation = bottom-left
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;%btnaction_splitter_fm%
   backgroundhovered = resources\buttton_hover_background_discord.png
   label = 
   loopbackgroundanimations = true
   x = 27
   width = 20
-  actionid = bcb14f40-0a69-474a-a8d4-1bfd9598a2c91661358630886
   action = addbutton
+  actionid = bcb14f40-0a69-474a-a8d4-1bfd9598a2c91661358630886
   y = -23
   backgroundnormal = resources\button_normal_background_discord.png
-  value = 
   height = 20
 }
 
@@ -280,17 +274,21 @@ customization {
 customization {
   orientation = top-left
   restartbackgroundanimations = true
-  buttonaction = joinserver
+  buttonaction = joinserver;0.0.0.0:24454%btnaction_splitter_fm%
   backgroundhovered = resources\button_hover_background.png
   label = Prueba
   loopbackgroundanimations = true
   x = 217
   width = 100
-  actionid = ee9d7831-0f0c-4da0-bfb5-be9e805847c81661428324282
   action = addbutton
+  actionid = ee9d7831-0f0c-4da0-bfb5-be9e805847c81661428324282
   y = 251
   backgroundnormal = resources\button_normal_background.png
-  value = 0.0.0.0:24454
   height = 20
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
 }
 
