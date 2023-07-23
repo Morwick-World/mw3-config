@@ -10,8 +10,9 @@
 !config/fancymenu/**/*
 !config/drippyloadingscreen/
 !config/drippyloadingscreen/**/*
-!config/waila/waila_plugins.json
-!config/waila/blacklist.json
 !config/mobhealthbar-client.toml
-!journeymap/config/**/journeymap.minimap.config
+!config/replaymod.json
+!journeymap/config/**/
+!config/waila/waila_plugins.json
+!config/waila/blacklist.jsonjourneymap.minimap.config
 mods/ReplayMod*

@@ -54,9 +54,14 @@ customization {
 }
 
 customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = bottom-left
-  x = 74
+  x = 75
   action = movebutton
   y = -23
 }
@@ -113,6 +118,21 @@ customization {
   x = 3
   action = movebutton
   y = -23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources/button_normal_background_globe.png
+  backgroundnormal = resources/button_normal_background_globe.png
 }
 
 customization {
@@ -285,10 +305,5 @@ customization {
   y = 251
   backgroundnormal = resources\button_normal_background.png
   height = 20
-}
-
-customization {
-  identifier = %id=376322%
-  action = hidebutton
 }
 
