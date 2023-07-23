@@ -14,3 +14,4 @@
 !config/waila/blacklist.json
 !config/mobhealthbar-client.toml
 !journeymap/config/**/journeymap.minimap.config
+mods/ReplayMod*
