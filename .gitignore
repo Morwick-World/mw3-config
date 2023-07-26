@@ -16,3 +16,4 @@
 !config/waila/waila_plugins.json
 !config/waila/blacklist.jsonjourneymap.minimap.config
 mods/ReplayMod*
+mods/worldedit*
