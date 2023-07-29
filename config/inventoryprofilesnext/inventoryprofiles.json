@@ -1,0 +1,18 @@
+{
+    "ModSettings": {
+        "restock_hotbar": {
+            "value": true
+        },
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        }
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_empty_hotbar_as_semi_locked": {
+            "value": false
+        }
+    }
+}
