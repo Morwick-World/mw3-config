@@ -16,5 +16,6 @@
 !config/waila/waila_plugins.json
 !config/waila/blacklist.jsonjourneymap.minimap.config
 !config/worldedit/worldedit.properties
+!config/inventoryprofilesnext/inventoryprofiles.json
 mods/ReplayMod*
 mods/worldedit*
