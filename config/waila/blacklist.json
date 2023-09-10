@@ -11,7 +11,9 @@
     "dynamictrees:acacia_leaves",
     "dynamictrees:dark_oak_leaves",
     "dynamictrees:spruce_leaves",
-    "dynamictrees:jungle_leaves"
+    "dynamictrees:jungle_leaves",
+    "dynamictrees:flowering_azalea_leaves",
+    "dynamictrees:azalea_leaves"
   ],
   "blockEntityTypes": [],
   "entityTypes": [
