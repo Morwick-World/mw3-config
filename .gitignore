@@ -12,11 +12,10 @@
 !config/drippyloadingscreen/**/*
 !config/mobhealthbar-client.toml
 !config/replaymod.json
-!journeymap/config/**/
+!journeymap/config/**/journeymap.minimap.config
 !config/waila/waila_plugins.json
 !config/waila/blacklist.json
 !config/worldedit/worldedit.properties
 !config/inventoryprofilesnext/inventoryprofiles.json
-journeymap/config/5.9/journeymap.minimap.config
 mods/ReplayMod*
 mods/worldedit*
