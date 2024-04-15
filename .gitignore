@@ -1,5 +1,4 @@
-!config/fancymenu/
-!config/fancymenu/**/*
+
 *
 **/*
 !mods/
@@ -8,6 +7,8 @@
 !resourcepacks/**/*
 !config/drippyloadingscreen/
 !config/drippyloadingscreen/**/*
+!config/fancymenu/
+!config/fancymenu/**/*
 !config/inventoryprofilesnext/inventoryprofiles.json
 !config/mobhealthbar-client.toml
 !config/replaymod.json
