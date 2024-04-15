@@ -1,4 +1,5 @@
 *
+**/*
 !config/fancymenu/
 !config/fancymenu/**/*
 !mods/
@@ -15,6 +16,5 @@
 !config/waila/blacklist.json
 !config/worldedit/worldedit.properties
 !journeymap/config/**/journeymap.minimap.config
-**/*
 mods/ReplayMod*
 mods/worldedit*
