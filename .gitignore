@@ -7,7 +7,7 @@
 !config/drippyloadingscreen/
 !config/drippyloadingscreen/**/*
 !config/fancymenu/
-!config/fancymenu/**/*
+!config/fancymenu/assets/**/*
 !config/inventoryprofilesnext/inventoryprofiles.json
 !config/mobhealthbar-client.toml
 !config/replaymod.json
