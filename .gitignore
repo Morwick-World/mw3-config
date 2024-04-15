@@ -1,7 +1,7 @@
-*
-**/*
 !config/fancymenu/
 !config/fancymenu/**/*
+*
+**/*
 !mods/
 !mods/**/*
 !resourcepacks/
