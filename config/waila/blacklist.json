@@ -26,14 +26,8 @@
     "#waila:blacklist",
     "minecraft:barrier",
     "minecraft:structure_void",
-    "dynamictrees:oak_leaves",
-    "dynamictrees:birch_leaves",
-    "dynamictrees:acacia_leaves",
-    "dynamictrees:dark_oak_leaves",
-    "dynamictrees:spruce_leaves",
-    "dynamictrees:jungle_leaves",
-    "dynamictrees:flowering_azalea_leaves",
-    "dynamictrees:azalea_leaves"
+    "/dynamictrees:.*_leaves/",
+    "/dynamictrees:.*_sapling/"
   ],
   "blockEntityTypes": [
     "#waila:blacklist"

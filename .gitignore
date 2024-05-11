@@ -11,6 +11,7 @@
 !config/fancymenu/**/*
 !config/inventoryprofilesnext/inventoryprofiles.json
 !config/mobhealthbar-client.toml
+!config/modernlife-client.toml
 !config/replaymod.json
 !config/simple-rpc/simple-rpc.toml
 !config/waila/waila_plugins.json
