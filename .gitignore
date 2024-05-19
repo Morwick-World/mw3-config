@@ -1,0 +1,33 @@
+# Ignora todo por defecto
+*
+!.gitignore
+
+
+# Permite los directorios
+!mods
+!resourcepacks/
+!config/
+!journeymap/
+
+# Ahora permite todo el contenido dentro de esos directorios
+!mods/**/*
+!resourcepacks/**/*
+!config/**/
+!journeymap/**/
+
+# Permitir archivos específicos dentro de los directorios
+!config/drippyloadingscreen/**/*
+!config/fancymenu/**/*
+!config/inventoryprofilesnext/inventoryprofiles.json
+!config/mobhealthbar-client.toml
+!config/modernlife-client.toml
+!config/replaymod.json
+!config/simple-rpc/simple-rpc.toml
+!config/waila/waila_plugins.json
+!config/waila/blacklist.json
+!config/worldedit/worldedit.properties
+!journeymap/config/**/journeymap.minimap.config
+
+# Ignorar archivos específicos
+mods/ReplayMod*
+mods/worldedit*
