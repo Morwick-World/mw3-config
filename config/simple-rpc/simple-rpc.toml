@@ -1,0 +1,261 @@
+
+#General Config Section. See https://srpc.fdd-docs.com/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = 1220477724070514839
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Iniciando Minecraft..."
+	#The second line of text under the app name
+	state = "Cargando %mods% mods..."
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mcinfo%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["loading"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Cargando %mods% mods"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "En el menu principal"
+	#The seconds line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mcinfo%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["menu"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods cargados"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Buscando servior..."
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mcinfo%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["server"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+	#The buttons to display on Discord
+	buttons = []
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+	# #The first line of text under the app name
+	# description = "%player% is looking for a Realm"
+	# #The second line of text under the app name
+	# state = "Browsing Realms"
+	# #The Asset ID of the image to display as the large image
+	# largeImageKey = ["mclogonew"]
+	# #The text that gets displayed when the large image is hovered
+	# largeImageText = "It's Minecraft %mcver%, but modded"
+	# #The Asset ID of the image to display as the small image
+	# smallImageKey = ["mclogo"]
+	# #The text that gets displayed when the small image is hovered
+	# smallImageText = "%mods% mods installed"
+	# #The buttons to display on Discord
+	# buttons = []
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Cargando mundo..."
+	#The second line of text under the app name
+	state = "En la pantalla de carga"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mcinfo%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["loading"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods instalados"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%savename%"
+	#The second line of text under the app name
+	state = "Modo un jugador"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mcinfo% | %mods% mods"
+	#The Asset ID of the image to display as the small image
+	# smallImageKey = ["%playerhead%"]
+	smallImageKey = ["%head%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%servername%"
+	#The second line of text under the app name
+	state = "%players% jugadores online"
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["sapling"]
+	# largeImageKey = ["%servericon%"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mcinfo% | %mods% mods"
+	#The Asset ID of the image to display as the small image
+	# smallImageKey = ["%playerhead%"]
+	smallImageKey = ["%head%"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord
+	buttons = []
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+	# #The first line of text under the app name
+	# description = "Playing on %realmname%"
+	# #The second line of text under the app name
+	# state = "Playing on a Realm"
+	# #The Asset ID of the image to display as the large image
+	# largeImageKey = ["mclogonew"]
+	# #The text that gets displayed when the large image is hovered
+	# largeImageText = "It's Minecraft %mcver%, but modded"
+	# #The Asset ID of the image to display as the small image
+	# smallImageKey = ["mclogo"]
+	# #The text that gets displayed when the small image is hovered
+	# smallImageText = "%realmdescription%"
+	# #The buttons to display on Discord
+	# buttons = []
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Jugando Minecraft"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID of the image to display as the large image
+	largeImageKey = ["mclogo"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "%mcinfo%"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods instalados"
+	#The buttons to display on Discord
+	buttons = []
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	[[custom.variables]]
+    name = "mcinfo"
+    value = "Minecraft: %mcver% | Forge: 43.3.5"
+		# value = "%instance% | %launcher% | %launchername%"
+	[[custom.variables]]
+		name = "head"
+		value = "https://mc-heads.net/avatar/%player%/64"
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = false
+
+# 	#The Dimensions to override
+# 	[[dimension_overrides.dimensions]]
+# 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+# 		name = "overworld"
+# 		#The first line of text under the app name
+# 		description = "%player% is in The Overworld"
+# 		#The second line of text under the app name
+# 		state = ""
+# 		#The Asset ID of the image to display as the large image
+# 		largeImageKey = ["overworld"]
+# 		#The text that gets displayed when the large image is hovered
+# 		largeImageText = "In the Overworld"
+# 		#The Asset ID of the image to display as the small image
+# 		smallImageKey = ["mclogo"]
+# 		#The text that gets displayed when the small image is hovered
+# 		smallImageText = "%mods% mods installed"
+# 		#The buttons to display on Discord
+# 		buttons = []
+
+# 	[[dimension_overrides.dimensions]]
+# 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+# 		name = "the_nether"
+# 		#The first line of text under the app name
+# 		description = "%player% is in The Nether"
+# 		#The second line of text under the app name
+# 		state = ""
+# 		#The Asset ID of the image to display as the large image
+# 		largeImageKey = ["nether"]
+# 		#The text that gets displayed when the large image is hovered
+# 		largeImageText = "In the Nether"
+# 		#The Asset ID of the image to display as the small image
+# 		smallImageKey = ["mclogo"]
+# 		#The text that gets displayed when the small image is hovered
+# 		smallImageText = "%mods% mods installed"
+# 		#The buttons to display on Discord
+# 		buttons = []
+
+# 	[[dimension_overrides.dimensions]]
+# 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
+# 		name = "the_end"
+# 		#The first line of text under the app name
+# 		description = "%player% is in The End"
+# 		#The second line of text under the app name
+# 		state = ""
+# 		#The Asset ID of the image to display as the large image
+# 		largeImageKey = ["end"]
+# 		#The text that gets displayed when the large image is hovered
+# 		largeImageText = "In the End"
+# 		#The Asset ID of the image to display as the small image
+# 		smallImageKey = ["mclogo"]
+# 		#The text that gets displayed when the small image is hovered
+# 		smallImageText = "%mods% mods installed"
+# 		#The buttons to display on Discord
+# 		buttons = []
+
