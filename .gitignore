@@ -16,6 +16,7 @@
 !journeymap/**/
 
 # Permitir archivos específicos dentro de los directorios
+!config/doggytalents-client.toml
 !config/drippyloadingscreen/**/*
 !config/fancymenu/**/*
 !config/inventoryprofilesnext/inventoryprofiles.json
