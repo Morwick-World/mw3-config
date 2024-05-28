@@ -20,6 +20,7 @@
 !config/drippyloadingscreen/**/*
 !config/fancymenu/**/*
 !config/inventoryprofilesnext/inventoryprofiles.json
+!config/inventoryhud-client.toml
 !config/mobhealthbar-client.toml
 !config/modernlife-client.toml
 !config/replaymod.json
