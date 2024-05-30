@@ -21,10 +21,10 @@
 !config/fancymenu/**/*
 !config/inventoryprofilesnext/inventoryprofiles.json
 !config/inventoryhud-client.toml
-!config/mobhealthbar-client.toml
 !config/modernlife-client.toml
 !config/replaymod.json
 !config/simple-rpc/simple-rpc.toml
+!config/tslatentitystatus-common.toml
 !config/waila/waila_plugins.json
 !config/waila/blacklist.json
 !config/worldedit/worldedit.properties
