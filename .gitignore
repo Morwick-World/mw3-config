@@ -2,7 +2,6 @@
 *
 !.gitignore
 
-
 # Permite los directorios
 !mods
 !resourcepacks/
