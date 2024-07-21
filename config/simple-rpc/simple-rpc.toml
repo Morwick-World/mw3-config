@@ -122,8 +122,8 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "%mcinfo% | %mods% mods"
 	#The Asset ID of the image to display as the small image
-	# smallImageKey = ["%playerhead%"]
-	smallImageKey = ["%head%"]
+	smallImageKey = ["%playerhead%"]
+	# smallImageKey = ["%head%"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%player%"
 	#The buttons to display on Discord
@@ -143,8 +143,8 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "%mcinfo% | %mods% mods"
 	#The Asset ID of the image to display as the small image
-	# smallImageKey = ["%playerhead%"]
-	smallImageKey = ["%head%"]
+	smallImageKey = ["%playerhead%"]
+	# smallImageKey = ["%head%"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%player%"
 	#The buttons to display on Discord
@@ -195,9 +195,9 @@
     name = "mcinfo"
     value = "Minecraft: %mcver% | Forge: 43.3.5"
 		# value = "%instance% | %launcher% | %launchername%"
-	[[custom.variables]]
-		name = "head"
-		value = "https://mc-heads.net/avatar/%player%/64"
+	# [[custom.variables]]
+	# 	name = "head"
+	# 	value = "https://mc-heads.net/avatar/%player%/64"
 
 #Dimension Information Overrides
 [dimension_overrides]
