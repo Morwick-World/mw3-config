@@ -57,7 +57,7 @@
 	#Enable/Disable the Server List Event
 	enabled = true
 	#The first line of text under the app name
-	description = "Buscando servior..."
+	description = "Buscando servidor..."
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image
@@ -138,8 +138,7 @@
 	#The second line of text under the app name
 	state = "%players% jugadores online"
 	#The Asset ID of the image to display as the large image
-	largeImageKey = ["sapling"]
-	# largeImageKey = ["%servericon%"]
+	largeImageKey = ["%servericon%"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "%mcinfo% | %mods% mods"
 	#The Asset ID of the image to display as the small image

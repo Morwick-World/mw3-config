@@ -1,6 +1,7 @@
 # Ignora todo por defecto
 *
 !.gitignore
+!servers.dat
 
 # Permite los directorios
 !mods
@@ -15,6 +16,7 @@
 !journeymap/**/
 
 # Permitir archivos específicos dentro de los directorios
+!config/bcc-common.toml
 !config/doggytalents-client.toml
 !config/drippyloadingscreen/**/*
 !config/fancymenu/**/*
