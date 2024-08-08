@@ -65,7 +65,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 0a735cce-8fb2-464f-8ae0-7d39a3daca0d-1711703943350
-  [executable_action_instance:fab06841-a6ea-4f65-a6af-5c6a39395cdc-1711703943350][action_type:joinserver] = 127.0.0.1
+  [executable_action_instance:fab06841-a6ea-4f65-a6af-5c6a39395cdc-1711703943350][action_type:joinserver] = 88.25.83.246
   [executable_block:0a735cce-8fb2-464f-8ae0-7d39a3daca0d-1711703943350][type:generic] = [executables:fab06841-a6ea-4f65-a6af-5c6a39395cdc-1711703943350;]
   backgroundnormal = [source:local]/config/fancymenu/assets/button_normal_background.png
   backgroundhovered = [source:local]/config/fancymenu/assets/button_hover_background.png
