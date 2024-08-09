@@ -5,9 +5,9 @@
 	#Range: > 0
 	modpackProjectID = 0
 	#The name of the modpack
-	modpackName = "Morwick World 3: The Forestland"
+	modpackName = "Morwick World"
 	#The version of the modpack
-	modpackVersion = "0.0.1"
+	modpackVersion = "3.0.1"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
