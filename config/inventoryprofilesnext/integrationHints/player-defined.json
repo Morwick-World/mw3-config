@@ -1,0 +1,41 @@
+{
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -7,
+                "top": 27
+            },
+            "SETTINGS": {
+                "horizontalOffset": -7,
+                "top": 25
+            }
+        }
+    },
+    "com.mrcrayfish.furniture.refurbished.client.gui.screen.ElectricityGeneratorScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "top": 48
+            },
+            "SORT": {
+                "horizontalOffset": -36,
+                "top": 15
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -24,
+                "top": 26
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -12,
+                "top": 37
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -7,
+                "top": 27
+            },
+            "SETTINGS": {
+                "horizontalOffset": -7,
+                "top": 25
+            }
+        }
+    }
+}

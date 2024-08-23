@@ -1,6 +1,7 @@
 # Ignora todo por defecto
 *
 !.gitignore
+!config/inventoryprofilesnext/integrationHints/**/*
 !servers.dat
 
 # Permite los directorios
