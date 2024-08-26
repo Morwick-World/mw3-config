@@ -192,7 +192,7 @@
 	#Your custom variables to add
 	[[custom.variables]]
     name = "mcinfo"
-    value = "Minecraft: %mcver% | Forge: 43.3.5"
+    value = "Minecraft: %mcver% | Forge: 43.4.0"
 		# value = "%instance% | %launcher% | %launchername%"
 	# [[custom.variables]]
 	# 	name = "head"

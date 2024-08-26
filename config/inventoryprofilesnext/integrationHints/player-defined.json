@@ -37,5 +37,44 @@
                 "top": 25
             }
         }
+    },
+    "com.github.NGoedix.watchvideo.client.gui.VideoScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": -23
+            },
+            "SORT": {
+                "horizontalOffset": -44
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -35
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -24
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": -45
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 29,
+                "top": -6
+            },
+            "SETTINGS": {
+                "horizontalOffset": 43,
+                "top": -21
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -7,
+                "top": 27
+            },
+            "SETTINGS": {
+                "horizontalOffset": -7,
+                "top": 25
+            }
+        }
     }
 }
